@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CoderReact-app/static/css/main.baaf2d71.css",
-    "main.js": "/CoderReact-app/static/js/main.9a110eab.js",
+    "main.css": "/CoderReact-app/static/css/main.ab4a7b2c.css",
+    "main.js": "/CoderReact-app/static/js/main.bb3b8749.js",
     "static/js/787.4477cc08.chunk.js": "/CoderReact-app/static/js/787.4477cc08.chunk.js",
     "static/media/Kintoun.webp": "/CoderReact-app/static/media/Kintoun.26c29f3fce7983ec0cb7.webp",
     "index.html": "/CoderReact-app/index.html",
-    "main.baaf2d71.css.map": "/CoderReact-app/static/css/main.baaf2d71.css.map",
-    "main.9a110eab.js.map": "/CoderReact-app/static/js/main.9a110eab.js.map",
+    "main.ab4a7b2c.css.map": "/CoderReact-app/static/css/main.ab4a7b2c.css.map",
+    "main.bb3b8749.js.map": "/CoderReact-app/static/js/main.bb3b8749.js.map",
     "787.4477cc08.chunk.js.map": "/CoderReact-app/static/js/787.4477cc08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baaf2d71.css",
-    "static/js/main.9a110eab.js"
+    "static/css/main.ab4a7b2c.css",
+    "static/js/main.bb3b8749.js"
   ]
 }
