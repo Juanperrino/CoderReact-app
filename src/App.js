@@ -3,6 +3,7 @@ import './App.css';
 import NavScrollExample from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Slide from './components/Slide';
 
 
 
@@ -13,8 +14,23 @@ function App() {
       <header>
         <NavScrollExample />
       </header>
-      <ItemListContainer greeting="Entregado" />
 
+      <main>
+        <ItemListContainer greeting="CONTADOR" />
+
+        {/* <Slide /> */}
+
+
+
+
+
+
+      </main>
+
+
+      <footer>
+
+      </footer>
     </div>
   );
 }

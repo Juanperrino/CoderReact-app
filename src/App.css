@@ -16,3 +16,133 @@
 .butonLindo:hover {
   background-color: rgb(20, 219, 20);
 }
+
+
+.main {
+  /* background: url(../src/assets/img/motherUp.png)no-repeat; */
+  background-color: gray;
+  /* background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%; */
+}
+
+.main h1 {
+  font-size: 5rem;
+  font-family: 'Righteous', cursive;
+  color: white;
+  border: 1px solid rgb(20, 219, 20);
+  padding: 2rem;
+  text-align: center;
+}
+
+.main p {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.main p:nth-child(2) {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.mbtn1 {
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 20);
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn1:hover {
+  background-color: rgb(13, 172, 13);
+}
+
+.mbtn2 {
+  height: 50px;
+  width: 25%;
+  outline: none;
+  background-color: transparent;
+  color: rgb(20, 219, 20);
+  border: 1px solid rgb(20, 219, 20);
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn2:hover {
+  background-color: rgb(20, 219, 20);
+  border: none;
+  color: white;
+}
+
+/* .line {
+  height: 6px;
+  width: 30%;
+  background: rgb(20, 219, 20);
+  display: inline-block;
+} */
+
+.butoons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+
+
+.list {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.contador {
+  width: 300px;
+  border: 2px solid #000000;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.contador h2 {
+  justify-content: center;
+}
+
+.contador button {
+  background-color: #fff;
+  transition: all 0.4s;
+}
+
+.contador button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.masMenos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.masMenos button {
+  padding: 1rem;
+  background-color: #fff;
+}
