@@ -15,63 +15,94 @@
 
 .butonLindo:hover {
   background-color: rgb(20, 219, 20);
+  box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
 }
 
 
-.main {
-  /* background: url(../src/assets/img/motherUp.png)no-repeat; */
-  background-color: gray;
-  /* background-size: cover;
+
+
+.containSlide {
+  background: url(../src/assets/img/motherUp.png)no-repeat;
+  background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
-.main h1 {
-  font-size: 5rem;
-  font-family: 'Righteous', cursive;
-  color: white;
-  border: 1px solid rgb(20, 219, 20);
-  padding: 2rem;
-  text-align: center;
+.text-top {
+  grid-row: 3;
+  grid-column: 2;
 }
 
-.main p {
+.text-top h1 {
+  display: inline;
+  font-size: 3rem;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 900;
   color: white;
-  text-align: center;
+  /* border-top: 1px solid rgb(20, 219, 20); */
+  border-bottom: 5px solid rgb(20, 219, 20);
+  /* box-shadow: 0 0 1em 0 rgb(255, 20, 189); */
   padding: 1rem;
+  text-align: center;
+  margin: 0;
+
 }
 
-.main p:nth-child(1) {
-  font-size: 18px;
-  font-weight: 500;
-  padding-top: 100px;
-  color: rgb(255, 255, 255);
+.text-top p {
+  color: white;
+  text-align: center;
+  /* padding: .2rem; */
+  margin-bottom: 0;
+  /* border-bottom: 1px dotted rgb(20, 219, 20); */
+
 }
 
-.main p:nth-child(2) {
-  font-size: 18px;
-  color: rgb(255, 255, 255);
+.info-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.mbtn1 {
+.info-top p {
+  width: 300px;
+  padding: 1rem;
+  border: none;
+}
+
+.btn1 {
   height: 50px;
-  width: 25%;
+  width: 15%;
+  max-width: 150px;
+  min-width: 100px;
+
   outline: none;
   border: none;
   color: white;
   background: rgb(20, 219, 20);
   border-radius: 50px;
   transition: all 0.4s;
+  border: 2px solid rgb(20, 219, 20);
 }
 
-.mbtn1:hover {
-  background-color: rgb(13, 172, 13);
+.btn1:hover {
+  /* background-color: #01C4E7; */
+  /* background: rgb(255, 20, 189);
+  color: white; */
+  color: #fff;
+  background: rgb(20, 219, 20);
+  box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
+  ;
 }
 
-.mbtn2 {
+.btn2 {
   height: 50px;
-  width: 25%;
+  width: 15%;
+  max-width: 150px;
+  min-width: 100px;
   outline: none;
   background-color: transparent;
   color: rgb(20, 219, 20);
@@ -80,44 +111,109 @@
   transition: all 0.4s;
 }
 
-.mbtn2:hover {
+.btn2:hover {
   background-color: rgb(20, 219, 20);
   border: none;
   color: white;
+  box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
 }
-
-/* .line {
-  height: 6px;
-  width: 30%;
-  background: rgb(20, 219, 20);
-  display: inline-block;
-} */
 
 .butoons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding-top: 2rem;
 }
 
 
 
 
-.list {
+/* .list {
   padding: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+
+
+/* --------------------product------------------------------ */
+
+
+.contain-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+  grid-template-rows: auto;
 }
 
 
-.contador {
+.ContainFlex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.column6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cards {
+  border: none;
+  border-radius: 50;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.cards-body {
+  border: 1px solid rgb(190, 185, 185);
+  box-shadow: 0px 10px 10px -6px black;
+}
+
+.head1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.per1 {
+  color: rgb(168, 162, 162);
+}
+
+.btnc {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 20);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+
+.btnc:hover {
+  outline: none;
+  border: 1px solid rgb(20, 219, 20);
+  color: rgb(20, 219, 20);
+  background: transparent;
+  border-radius: 50px;
+}
+
+
+
+/* ----------------------Desafio3 Contador------------------------ */
+/* .contador {
   width: 300px;
   border: 2px solid #000000;
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .contador h2 {
@@ -145,4 +241,114 @@
 .masMenos button {
   padding: 1rem;
   background-color: #fff;
+} */
+
+
+
+
+
+/* ----------------------------Graphic Cards--------------------------------- */
+
+
+
+.containGraphic {
+  background: url(https://cdn.wccftech.com/wp-content/uploads/2018/05/geforce-gtx-1080-ti-large-004.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+
+.text-topGraphic {
+  grid-row: 3;
+  grid-column: 3 / 5;
+}
+
+
+.text-topGraphic h1 {
+  display: inline;
+  font-size: 5rem;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 900;
+  color: white;
+  border: 5px solid rgb(20, 219, 20);
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.text-topGraphic p {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+
+
+
+/* -----------------------------Service------------------------------ */
+
+.store h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.store p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.store p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+
+.store span {
+  font-size: 45px;
+}
+
+.sotre .card {
+  border-radius: 0;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.store .card:hover {
+  background-color: rgb(20, 219, 20);
+  color: white;
+}
+
+.store .card:hover .per1 {
+  color: white;
+}
+
+
+
+
+/* ------------------------Desafio4 map------------------ */
+
+.cardsMap {
+  width: 300px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.cardsMap img {
+  width: 250px;
+}
+
+.cardsMap h2 {
+  font-size: 2rem;
+}
+
+.cardItem {
+  border: 1px solid #000;
+  margin: 2rem;
+  padding: 2rem;
 }

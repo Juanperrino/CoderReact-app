@@ -24,13 +24,13 @@ function NavScrollExample() {
 
                         <NavDropdown title="Products"
                             id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#action3">
+                            <NavDropdown.Item href="#">
                                 Motherboards</NavDropdown.Item>
                             <NavDropdown.Item href="#action4">
                                 Processors
                             </NavDropdown.Item>
                             {/* <NavDropdown.Divider /> */}
-                            <NavDropdown.Item href="#action5">
+                            <NavDropdown.Item href="#containGraphic">
                                 Graphic Cards
                             </NavDropdown.Item>
                         </NavDropdown>

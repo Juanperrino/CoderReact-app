@@ -1,13 +1,12 @@
 import React from 'react'
 
-function Slide() {
+function GraphicCard() {
     return (
-        <section className="containSlide">
-            <div className="text-top">
+        <section className="containGraphic" id='containGraphic'>
+            <div className="text-topGraphic">
                 <div className="contain-two">
-                    {/* <p>Technology</p> */}
                     <div className='info-top'>
-                        <h1>Motherboards</h1>
+                        <h1>Graphic Cards</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste ipsa dolor laborum neque hic ipsam, dolorem voluptatibus est fugit, ad deleniti corporis accusamus ut fuga quam reprehenderit voluptates.
                         </p>
                     </div>
@@ -21,4 +20,4 @@ function Slide() {
     )
 }
 
-export default Slide
+export default GraphicCard
