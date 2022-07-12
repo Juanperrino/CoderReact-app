@@ -1,0 +1,63 @@
+.item-list-container {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+
+
+.gral-container {
+    border: 1px solid #14DB14;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.gral-container:hover {
+    background-color: #14DB14;
+}
+
+
+.title-img img {
+    width: 300px;
+
+}
+
+.title-img h5 {
+    color: rgb(3, 3, 3);
+    background-color: rgb(247, 236, 236);
+
+}
+
+.price-more {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-more span {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.price-more a {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+    margin-top: 1rem;
+}
+
+.price-more a:hover {
+    background-color: #000;
+    color: #fff;
+}

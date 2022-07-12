@@ -9,6 +9,7 @@ import Service from './components/Service';
 import MotherProducts from './components/MotherProducts';
 import ListContainer from './components/ListContainer';
 import ItemList from './components/ItemList';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <MotherProducts />
         {/* <ItemList /> */}
         <ItemListContainer />
+        <ItemDetailContainer greeting="Best Products" />
         {/* <GraphicCard /> */}
         {/* <Service /> */}
         {/* <ListContainer /> */}
