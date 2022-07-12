@@ -208,7 +208,7 @@
 
 
 /* ----------------------Desafio3 Contador------------------------ */
-/* .contador {
+.contador {
   width: 300px;
   border: 2px solid #000000;
   padding: 2rem;
@@ -241,7 +241,7 @@
 .masMenos button {
   padding: 1rem;
   background-color: #fff;
-} */
+}
 
 
 

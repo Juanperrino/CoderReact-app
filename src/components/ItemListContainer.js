@@ -17,11 +17,11 @@ const ItemListContainer = ({ greeting }) => {
     return (
         <div className='list'>
             {greeting}
-            {/* <ItemCount
+            <ItemCount
                 stock={5}
                 initial={1}
                 onAdd={(n) => alert(`agregados ${n} productos`)}
-            /> */}
+            />
             {loading ? (<h4>Loading...</h4>) : (<ItemList items={products} />)}
         </div>
     )
