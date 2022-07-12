@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/CoderReact-app/static/css/main.4d695ca1.css",
-    "main.js": "/CoderReact-app/static/js/main.6485eaa9.js",
+    "main.css": "/CoderReact-app/static/css/main.0d2f4844.css",
+    "main.js": "/CoderReact-app/static/js/main.7eefee7a.js",
     "static/js/787.4477cc08.chunk.js": "/CoderReact-app/static/js/787.4477cc08.chunk.js",
     "static/media/motherUp.png": "/CoderReact-app/static/media/motherUp.5e0bca5fe96659e07a2d.png",
     "static/media/Kintoun.webp": "/CoderReact-app/static/media/Kintoun.26c29f3fce7983ec0cb7.webp",
     "index.html": "/CoderReact-app/index.html",
-    "main.4d695ca1.css.map": "/CoderReact-app/static/css/main.4d695ca1.css.map",
-    "main.6485eaa9.js.map": "/CoderReact-app/static/js/main.6485eaa9.js.map",
+    "main.0d2f4844.css.map": "/CoderReact-app/static/css/main.0d2f4844.css.map",
+    "main.7eefee7a.js.map": "/CoderReact-app/static/js/main.7eefee7a.js.map",
     "787.4477cc08.chunk.js.map": "/CoderReact-app/static/js/787.4477cc08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d695ca1.css",
-    "static/js/main.6485eaa9.js"
+    "static/css/main.0d2f4844.css",
+    "static/js/main.7eefee7a.js"
   ]
 }
