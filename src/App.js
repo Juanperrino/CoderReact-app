@@ -27,8 +27,8 @@ function App() {
         <Slide />
         <MotherProducts />
         {/* <ItemList /> */}
-        <ItemListContainer />
         <ItemDetailContainer greeting="Best Products" />
+        <ItemListContainer />
         {/* <GraphicCard /> */}
         {/* <Service /> */}
         {/* <ListContainer /> */}

@@ -26,7 +26,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ function MotherProducts() {
                                     <h4 className="head1">MSI</h4>
                                     <p className="per1">PRO Z690-A WIFI</p>
                                     <h4 className="head1">$55.00</h4>
-                                    <button className="btnc my-4">ADD TO CART</button>
+                                    <button className="btnc my-4">SHOP NOW</button>
                                 </div>
                             </div>
                         </div>

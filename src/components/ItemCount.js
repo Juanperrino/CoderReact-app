@@ -24,7 +24,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
                     alert("No hay esa cantidad de productos")
                 }
                 // count <= stock && onAdd(count);
-            }}>Agregar</button>
+            }}>Add to Cart</button>
         </div>
     );
 };

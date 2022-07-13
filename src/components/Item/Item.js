@@ -14,7 +14,7 @@ const Item = ({ product }) => {
 
             <div className="price-more">
                 <span>{price}</span>
-                <a href="/">Add to Cart</a>
+                <a href="/">See more</a>
             </div>
 
         </div>
