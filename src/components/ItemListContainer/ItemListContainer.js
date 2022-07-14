@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import products from "../../MockData/products";
 import ItemList from "../ItemList/ItemList";
+import ItemCount from '../ItemCount'
 
 const ItemListContainer = ({ greeting }) => {
     const [productos, setproductos] = useState([]);
@@ -42,6 +43,12 @@ const ItemListContainer = ({ greeting }) => {
         <div>
             <h1>{greeting}</h1>
             {cargando ? <span>cargando...</span> : <ItemList productos={productos} />}
+
+            <ItemCount
+                stock={5}
+                initial={1}
+                onAdd={(n) => alert(`agregados ${n} productos`)}
+            />
         </div>
     );
 };

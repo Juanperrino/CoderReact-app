@@ -218,7 +218,7 @@
 
 /* ----------------------Desafio3 Contador------------------------ */
 .contador {
-  /* width: 300px; */
+  width: 300px;
   height: 300px;
   /* border: 2px solid #000000; */
   padding: 2rem;
