@@ -40,7 +40,7 @@ const ItemListContainer = ({ greeting }) => {
     }, []);
 
     return (
-        <div>
+        <div className="ItemListContainer">
             <h2>{greeting}</h2>
             {cargando ? <span>cargando...</span> : <ItemList productos={productos} />}
 

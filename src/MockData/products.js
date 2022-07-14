@@ -1,27 +1,27 @@
 const products = [
     {
-        id: 5,
-        title: "ASUS",
+        id: 1,
+        title: "Fjallraven",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        price: "$55.99",
-        pictureUrl: `${process.env.PUBLIC_URL}/img/asus.png`,
+        price: "$109.95",
+        pictureUrl: `https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg`,
     },
     {
-        id: 6,
-        title: "MSI",
+        id: 2,
+        title: "Mens Casual",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nibh cras pulvinar mattis nunc. Dolor sed viverr.",
-        price: "$58.00",
-        pictureUrl: `https://storage-asset.msi.com/event/mb/2017/ghost/images/topmod-on.png`,
+        price: "$22.3",
+        pictureUrl: `https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg`,
     },
     {
-        id: 7,
-        title: "ASROCK",
+        id: 3,
+        title: "Mens Cotton Jacket",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        price: "$43.00",
-        pictureUrl: `${process.env.PUBLIC_URL}/img/asrock.png`,
+        price: "$55.99",
+        pictureUrl: `https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg`,
     },
 ];
 

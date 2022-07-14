@@ -1,16 +1,22 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail'
+import { useParams } from 'react-router-dom'
+
 
 
 const ItemDetailContainer = ({ greeting }) => {
 
     const [productDetail, setProductDetail] = useState({ Loader: true });
+    const param = useParams()
+    // console.log(param)
+
+
 
     useEffect(() => {
         const getItem = async () => {
             try {
-                const resp = await fetch(`https://fakestoreapi.com/products/${1}`)
+                const resp = await fetch(`https://fakestoreapi.com/products/${param.idProduct}`)
                 const data = await resp.json();
                 setProductDetail(data)
                 // console.log(data)

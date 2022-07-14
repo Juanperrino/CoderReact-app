@@ -1,6 +1,6 @@
 import React from "react";
 import './Item.css';
-
+import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
     const { pictureUrl, title, price } = product;
@@ -14,7 +14,7 @@ const Item = ({ product }) => {
 
             <div className="price-more">
                 <span>{price}</span>
-                <a href="/">See more</a>
+                <Link to={`/item/${product.id}`}>See more</Link>
             </div>
 
         </div>

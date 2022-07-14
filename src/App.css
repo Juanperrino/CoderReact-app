@@ -387,3 +387,26 @@
 .itemDetailCard img {
   width: 400px;
 }
+
+
+/* --------------------bootstrap NAVBAR------------------- */
+
+.navbar-nav a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  transition: all 0.4s;
+}
+
+.navbar-nav a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+
+.ItemListContainer h2 {
+  text-align: center;
+  padding: 2rem;
+}
