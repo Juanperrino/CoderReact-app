@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import ItemList from './components/ItemList/ItemList';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
-import Cart from './components/Cart/Cart';
+// import Cart from './components/Cart/Cart';
 
 
 
@@ -18,6 +18,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavScrollExample />
+        {/* <ItemListContainer greeting={"Our Products"} /> */}
         <Routes>
           {/* <ItemListContainer greeting="CONTADOR" /> */}
           {/* <Slide /> */}
@@ -30,9 +31,8 @@ function App() {
           {/* <Service /> */}
           {/* <ListContainer /> */}
           <Route path='/' element={<ItemListContainer greeting={"Our Products"} />} />
-          <Route path='/' element={<ItemListContainer />} />
-          <Route path='/category/:Motherboardsid' element={<ItemListContainer greeting={"Jackets"} />} />
-          <Route path='/category/micros/:idMicros' element={<ItemListContainer greeting={"Mens"} />} />
+          <Route path='/category/:Jacketid' element={<ItemListContainer greeting={"Jackets"} />} />
+          <Route path='/category/mens/:idMens' element={<ItemListContainer greeting={"Mens"} />} />
           <Route path='/item/:idProduct' element={<ItemDetailContainer />} />
           {/* <Route path='/cart' element={<Cart />} />
           <Route path='*' element={<NotFound />} /> */}

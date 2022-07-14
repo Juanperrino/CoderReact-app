@@ -21,8 +21,8 @@ function NavScrollExample() {
 
                         navbarScroll>
                         <Link to="/">Home</Link>
-                        <Link to="/category/:Motherboardsid">Jackets</Link>
-                        <Link to="/category/micros/:idMicros">Mens</Link>
+                        <Link to="/category/:Jacketsid">Jackets</Link>
+                        <Link to="/category/mens/:idMens">Mens</Link>
 
                         {/* <NavDropdown title="Products"
                             id="navbarScrollingDropdown">
