@@ -1,15 +1,12 @@
-// import logo from './logo.svg';
 import './App.css';
 import NavScrollExample from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Slide from './components/Slide';
-import GraphicCard from './components/GraphicCard';
-import Service from './components/Service';
-import MotherProducts from './components/MotherProducts';
-import ListContainer from './components/ListContainer';
-import ItemList from './components/ItemList';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+// import Slide from './components/Slide';
+// import Service from './components/Service';
+// import MotherProducts from './components/MotherProducts';
+import ItemList from './components/ItemList/ItemList';
+
 
 
 
@@ -24,11 +21,11 @@ function App() {
       <main>
         {/* <ItemListContainer greeting="CONTADOR" /> */}
 
-        <Slide />
-        <MotherProducts />
+        {/* <Slide /> */}
+        {/* <MotherProducts /> */}
         {/* <ItemList /> */}
-        <ItemDetailContainer greeting="Best Products" />
-        <ItemListContainer />
+        {/* <ItemDetailContainer greeting="Best Products" /> */}
+        <ItemListContainer greeting={<h1>Desafio Catalogo con MAPS y PROMISES</h1>} />
         {/* <GraphicCard /> */}
         {/* <Service /> */}
         {/* <ListContainer /> */}

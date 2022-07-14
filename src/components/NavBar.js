@@ -20,20 +20,21 @@ function NavScrollExample() {
 
                         navbarScroll>
                         <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">About</Nav.Link>
+                        <Nav.Link href="#action2">Motherboards</Nav.Link>
+                        <Nav.Link href="#action2">Micros</Nav.Link>
 
-                        <NavDropdown title="Products"
+                        {/* <NavDropdown title="Products"
                             id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#">
                                 Motherboards</NavDropdown.Item>
                             <NavDropdown.Item href="#action4">
                                 Processors
                             </NavDropdown.Item>
-                            {/* <NavDropdown.Divider /> */}
+                            <NavDropdown.Divider />
                             <NavDropdown.Item href="#containGraphic">
                                 Graphic Cards
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                     </Nav>
                     <CartWidget />
                 </Navbar.Collapse>

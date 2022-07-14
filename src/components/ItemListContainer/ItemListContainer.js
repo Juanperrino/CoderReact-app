@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import products from "../../MockData/products";
-import ItemList from "../ItemDetail/ItemDetail";
+import ItemList from "../ItemList/ItemList";
 
-const ItemDetailContainer = ({ greeting }) => {
+const ItemListContainer = ({ greeting }) => {
     const [productos, setproductos] = useState([]);
     const [cargando, setCargando] = useState(true);
 
@@ -46,4 +46,4 @@ const ItemDetailContainer = ({ greeting }) => {
     );
 };
 
-export default ItemDetailContainer;
+export default ItemListContainer;

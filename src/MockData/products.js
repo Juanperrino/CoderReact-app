@@ -13,7 +13,7 @@ const products = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nibh cras pulvinar mattis nunc. Dolor sed viverr.",
         price: "$58.00",
-        pictureUrl: `${process.env.PUBLIC_URL}/img/msi.png`,
+        pictureUrl: `https://storage-asset.msi.com/event/mb/2017/ghost/images/topmod-on.png`,
     },
     {
         id: 7,
