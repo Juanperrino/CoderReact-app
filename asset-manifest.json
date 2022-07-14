@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/CoderReact-app/static/css/main.d0f5bcf0.css",
-    "main.js": "/CoderReact-app/static/js/main.3d683e51.js",
-    "static/js/787.4477cc08.chunk.js": "/CoderReact-app/static/js/787.4477cc08.chunk.js",
-    "static/media/motherUp.png": "/CoderReact-app/static/media/motherUp.5e0bca5fe96659e07a2d.png",
-    "static/media/Kintoun.webp": "/CoderReact-app/static/media/Kintoun.26c29f3fce7983ec0cb7.webp",
-    "index.html": "/CoderReact-app/index.html",
-    "main.d0f5bcf0.css.map": "/CoderReact-app/static/css/main.d0f5bcf0.css.map",
-    "main.3d683e51.js.map": "/CoderReact-app/static/js/main.3d683e51.js.map",
-    "787.4477cc08.chunk.js.map": "/CoderReact-app/static/js/787.4477cc08.chunk.js.map"
+    "main.css": "/my-app-perrino/static/css/main.20349e0b.css",
+    "main.js": "/my-app-perrino/static/js/main.1d0a7d72.js",
+    "static/js/787.4477cc08.chunk.js": "/my-app-perrino/static/js/787.4477cc08.chunk.js",
+    "static/media/motherUp.png": "/my-app-perrino/static/media/motherUp.5e0bca5fe96659e07a2d.png",
+    "static/media/Kintoun.webp": "/my-app-perrino/static/media/Kintoun.26c29f3fce7983ec0cb7.webp",
+    "index.html": "/my-app-perrino/index.html",
+    "main.20349e0b.css.map": "/my-app-perrino/static/css/main.20349e0b.css.map",
+    "main.1d0a7d72.js.map": "/my-app-perrino/static/js/main.1d0a7d72.js.map",
+    "787.4477cc08.chunk.js.map": "/my-app-perrino/static/js/787.4477cc08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0f5bcf0.css",
-    "static/js/main.3d683e51.js"
+    "static/css/main.20349e0b.css",
+    "static/js/main.1d0a7d72.js"
   ]
 }
