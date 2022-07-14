@@ -41,14 +41,14 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div>
-            <h1>{greeting}</h1>
+            <h2>{greeting}</h2>
             {cargando ? <span>cargando...</span> : <ItemList productos={productos} />}
 
-            <ItemCount
+            {/* <ItemCount
                 stock={5}
                 initial={1}
                 onAdd={(n) => alert(`agregados ${n} productos`)}
-            />
+            /> */}
         </div>
     );
 };

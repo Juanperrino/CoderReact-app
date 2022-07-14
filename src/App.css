@@ -363,3 +363,27 @@
   max-width: 350px;
   padding: 2rem;
 }
+
+
+
+
+/* ---------------------ItemDetailContainer-----------------*/
+.itemDetailContainer {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemDetailCard {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #000;
+  gap: 2rem;
+}
+
+.itemDetailCard img {
+  width: 400px;
+}

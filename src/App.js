@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Service from './components/Service';
 // import MotherProducts from './components/MotherProducts';
 import ItemList from './components/ItemList/ItemList';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 
@@ -25,7 +26,10 @@ function App() {
         {/* <MotherProducts /> */}
         {/* <ItemList /> */}
         {/* <ItemDetailContainer greeting="Best Products" /> */}
-        <ItemListContainer greeting={<h1>Desafio Catalogo con MAPS y PROMISES</h1>} />
+        <ItemListContainer greeting={'Desafio Catalogo con MAPS y PROMISES'} />
+
+        <ItemDetailContainer greeting={'Detalle del Producto'} />
+
         {/* <GraphicCard /> */}
         {/* <Service /> */}
         {/* <ListContainer /> */}
