@@ -31,6 +31,7 @@ function App() {
           {/* <Service /> */}
           {/* <ListContainer /> */}
           <Route path='/' element={<ItemListContainer greeting={"Our Products"} />} />
+          <Route path='/my-app-perrino' element={<ItemListContainer greeting={"Our Products"} />} />
           <Route path='/category/:Jacketid' element={<ItemListContainer greeting={"Jackets"} />} />
           <Route path='/category/mens/:idMens' element={<ItemListContainer greeting={"Mens"} />} />
           <Route path='/item/:idProduct' element={<ItemDetailContainer />} />
