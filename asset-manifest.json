@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-app-perrino/static/css/main.20349e0b.css",
-    "main.js": "/my-app-perrino/static/js/main.1d0a7d72.js",
+    "main.js": "/my-app-perrino/static/js/main.45195022.js",
     "static/js/787.4477cc08.chunk.js": "/my-app-perrino/static/js/787.4477cc08.chunk.js",
     "static/media/motherUp.png": "/my-app-perrino/static/media/motherUp.5e0bca5fe96659e07a2d.png",
     "static/media/Kintoun.webp": "/my-app-perrino/static/media/Kintoun.26c29f3fce7983ec0cb7.webp",
     "index.html": "/my-app-perrino/index.html",
     "main.20349e0b.css.map": "/my-app-perrino/static/css/main.20349e0b.css.map",
-    "main.1d0a7d72.js.map": "/my-app-perrino/static/js/main.1d0a7d72.js.map",
+    "main.45195022.js.map": "/my-app-perrino/static/js/main.45195022.js.map",
     "787.4477cc08.chunk.js.map": "/my-app-perrino/static/js/787.4477cc08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20349e0b.css",
-    "static/js/main.1d0a7d72.js"
+    "static/js/main.45195022.js"
   ]
 }
