@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import MotherProducts from './components/MotherProducts';
 // import ItemList from './components/ItemList/ItemList';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Cart from './components/Cart/Cart';
 
 
@@ -18,25 +18,16 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavScrollExample />
-        {/* <ItemListContainer greeting={"Our Products"} /> */}
         <Routes>
-          {/* <ItemListContainer greeting="CONTADOR" /> */}
           {/* <Slide /> */}
           {/* <MotherProducts /> */}
           {/* <ItemList /> */}
-          {/* <ItemDetailContainer greeting="Best Products" /> */}
-          {/* <Route path="/" element={<ItemListContainer greeting={'Desafio Catalogo con MAPS y PROMISES'} />} />
-          <Route path="/" element={<ItemDetailContainer greeting={'Detalle del Producto'} />} /> */}
           {/* <GraphicCard /> */}
           {/* <Service /> */}
           {/* <ListContainer /> */}
-          <Route path='/' element={<ItemListContainer greeting={"Our Products"} />} />
-          <Route path='/my-app-perrino' element={<ItemListContainer greeting={"Our Products"} />} />
-          <Route path='/category/:Jacketid' element={<ItemListContainer greeting={"Jackets"} />} />
-          <Route path='/category/mens/:idMens' element={<ItemListContainer greeting={"Mens"} />} />
-          <Route path='/item/:idProduct' element={<ItemDetailContainer />} />
-          {/* <Route path='/cart' element={<Cart />} />
-          <Route path='*' element={<NotFound />} /> */}
+          <Route path='/my-app-perrino' element={<ItemListContainer />} />
+          <Route path=':categoryID' element={<ItemListContainer />} />
+          <Route path='/detail/:id' element={<ItemDetailContainer />} />
         </Routes>
       </div>
     </BrowserRouter >

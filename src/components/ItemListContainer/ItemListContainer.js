@@ -1,56 +1,56 @@
-import React, { useEffect, useState } from "react";
-import products from "../../MockData/products";
-import ItemList from "../ItemList/ItemList";
-import ItemCount from '../ItemCount'
+import React, { useEffect, useState } from 'react'
+import ItemList from '../ItemList/ItemList';
+import { useParams } from 'react-router-dom'
 
 const ItemListContainer = ({ greeting }) => {
-    const [productos, setproductos] = useState([]);
-    const [cargando, setCargando] = useState(true);
 
+    const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    const Datos = new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(products)
-            // console.log(products)
-        }, 2000);
-    });
+    const { categoryID } = useParams();
+    // console.log({ categoryID })
 
-
-    useEffect(() => {
-        Datos.then((data) => {
-            setproductos(data);
-        })
-            .catch((err) => {
-                console.log(err);
+    const getProducts = () => {
+        fetch('https://fakestoreapi.com/products/')
+            .then((res) => res.json())
+            .then(data => {
+                if (categoryID) {
+                    setProducts(data.filter((p) => p.category === categoryID))
+                } else {
+                    setProducts(data)
+                }
             })
-    }, []);
+    };
 
 
     useEffect(() => {
-        const getproductos = async () => {
-            try {
-                const response = await Datos;
-                setproductos(response);
-                setCargando(false);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        getproductos();
-    }, []);
+        setTimeout(() => {
+            getProducts()
+            setLoading(false)
+        }, 2000);
+    }, [categoryID]);
+
+    // console.log({ products })
+
 
     return (
         <div className="ItemListContainer">
             <h2>{greeting}</h2>
-            {cargando ? <span>cargando...</span> : <ItemList productos={productos} />}
-
-            {/* <ItemCount
-                stock={5}
-                initial={1}
-                onAdd={(n) => alert(`agregados ${n} productos`)}
-            /> */}
+            {loading ? <span>cargando...</span> : <ItemList products={products} />}
         </div>
     );
 };
 
 export default ItemListContainer;
+
+
+
+
+//ACÁ VA TODA LA LÓGICA => Puedo hacer la petición
+
+/* Este es el contenedor de la tienda, itemList: contenedor de cards, y el Item es la card en sí*/
+
+//item list container es 1er pantalla, donde veo todo
+//itemList solo hace el map!!
+//item solo la vista de la card!!
+//item detalle contenedor, 2da pantalla, va a estar el contador con la descripción

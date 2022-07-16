@@ -1,43 +1,31 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import ItemDetail from '../ItemDetail/ItemDetail'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-
-
+import ItemDetail from '../ItemDetail/ItemDetail';
 
 const ItemDetailContainer = ({ greeting }) => {
+    const [product, setProduct] = useState({});
+    const { id } = useParams()
+    // console.log({ id })
 
-    const [productDetail, setProductDetail] = useState({ Loader: true });
-    const param = useParams()
-    // console.log(param)
-
+    const getProducts = () => {
+        fetch(`https://fakestoreapi.com/products/${id}`)
+            .then((res) => res.json())
+            .then(data => {
+                setProduct(data)
+            })
+    };
 
 
     useEffect(() => {
-        const getItem = async () => {
-            try {
-                const resp = await fetch(`https://fakestoreapi.com/products/${param.idProduct}`)
-                const data = await resp.json();
-                setProductDetail(data)
-                // console.log(data)
-
-            } catch (error) {
-                console.log(error)
-            }
-        }
-
-        setTimeout(() => {
-            getItem()
-
-        }, 2000);
-
+        getProducts()
     }, [])
+
 
 
     return (
         <div className='itemDetailContainer'>
             <h2>{greeting}</h2>
-            <ItemDetail product={productDetail} />
+            <ItemDetail product={product} />
         </div>
     )
 }

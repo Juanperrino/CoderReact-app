@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import ItemCount from '../ItemCount';
 
 
@@ -10,6 +10,7 @@ const ItemDetail = ({ product }) => {
         setNewCount(count);
         console.log(`Se agregaron ${count} productos al carrito`) //Alert?
     }
+
 
     return (
         <div className='itemDetailCard'>

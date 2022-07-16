@@ -406,7 +406,15 @@
 }
 
 
-.ItemListContainer h2 {
+.ItemListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   padding: 2rem;
+}
+
+.ItemListContainer span {
+  font-size: 1.5rem;
+
 }

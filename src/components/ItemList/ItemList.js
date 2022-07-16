@@ -1,16 +1,18 @@
-import React from "react";
+import React from 'react'
 import '../Item/Item.css'
-import Item from "../Item/Item";
+import Item from '../Item/Item'
 
-const ItemDetail = ({ productos }) => {
+const ItemList = ({ products }) => {
+    // console.log({ products })
     return (
         <div className="item-list-container">
-            {productos.map((product) => {
-                // console.log(product);
-                return <Item key={product.id} product={product} />;
-            })}
-        </div>
-    );
-};
+            {products.map((product) => <Item key={product.id} product={product} />)}
 
-export default ItemDetail;
+        </div>
+    )
+}
+
+export default ItemList
+
+
+//itemList solo mapea los productos

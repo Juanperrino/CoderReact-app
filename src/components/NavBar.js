@@ -13,16 +13,18 @@ function NavScrollExample() {
     return (
         <Navbar variant={"dark"} expand="navbar navbar-expand-lg pb-3" style={{ backgroundColor: 'black' }}>
             <Container fluid>
-                <Link to="/"><img src={Kintoun} alt="" width={150} /></Link>
+                <Link to="/my-app-perrino"><img src={Kintoun} alt="" width={150} /></Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="m-auto my-2 my-lg-0"
 
                         navbarScroll>
-                        <Link to="/">Home</Link>
-                        <Link to="/category/:Jacketsid">Jackets</Link>
-                        <Link to="/category/mens/:idMens">Mens</Link>
+                        <Link to={'/my-app-perrino'}>Home</Link>
+                        <Link to={'/jewelery'}>Jewelery</Link>
+                        <Link to={"/men's clothing"}>Mens</Link>
+                        <Link to={"/women's clothing"}>Womens</Link>
+                        <Link to={'/electronics'}>Electronics</Link>
 
                         {/* <NavDropdown title="Products"
                             id="navbarScrollingDropdown">
