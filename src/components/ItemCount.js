@@ -12,19 +12,22 @@ const ItemCount = ({ stock, initial, onAdd }) => {
         <div className='contador'>
             <div className='masMenos'>
 
-                <button onClick={decremento}>-</button>
+                <button className='cbtn' onClick={decremento}>-</button>
                 <h3>{count}</h3>
 
-                <button onClick={incrementar}>+</button>
+                <button className='cbtn' onClick={incrementar}>+</button>
             </div>
-            <button onClick={() => {
-                if (count <= stock) {
-                    onAdd(count);
-                } else {
-                    alert("No hay esa cantidad de productos")
-                }
-                count <= stock && onAdd(count);
-            }}>Add to Cart</button>
+            <div className='buttonnCount'>
+                <button className="btnc count" onClick={() => {
+                    if (count <= stock) {
+                        onAdd(count);
+                    } else {
+                        alert("No hay esa cantidad de productos")
+                    }
+                    // count <= stock && onAdd(count);
+                }}>Add to Cart</button>
+
+            </div>
         </div>
     );
 };

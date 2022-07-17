@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  background-color: E5E5E5 !important;
+}
+
 .butonLindo {
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -17,7 +21,6 @@
   background-color: rgb(20, 219, 20);
   box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
 }
-
 
 
 
@@ -146,15 +149,29 @@
 }
 
 
+.active {
+  background-color: rgb(20, 219, 20);
+  box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
+
+
+}
+
 /* --------------------product------------------------------ */
 
-
-.contain-cards {
+.item-list-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
   grid-template-rows: auto;
 }
 
+.containerGralMp {
+  display: flex;
+  justify-content: center;
+}
+
+.containerMp {
+  width: 100%;
+}
 
 .ContainFlex {
   display: flex;
@@ -162,6 +179,14 @@
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.contain-cards {
+  height: 100%;
+}
+
+.column-cards {
+  height: 100%;
 }
 
 .column6 {
@@ -177,20 +202,45 @@
   border-radius: 50;
   cursor: pointer;
   padding: 1rem;
+  height: 100%;
 }
 
 .cards-body {
   border: 1px solid rgb(190, 185, 185);
   box-shadow: 0px 10px 10px -6px black;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
+
+.cards-body img {
+  width: 300px;
+  height: 300px;
+  padding: 2rem;
+
+}
+
+/* .star {
+  height: 100%;
+} */
+
 
 .head1 {
   font-weight: 400;
+  margin: 0;
+  height: 100px;
+  padding: 0rem 0.2rem 0.2rem 0.2rem;
+}
+
+.head2 {
+  font-weight: 600;
   margin: 0;
 }
 
 .per1 {
   color: rgb(168, 162, 162);
+  margin-top: 1rem;
+
 }
 
 .btnc {
@@ -204,6 +254,8 @@
   margin: 0 auto;
   display: block;
   transition: all 0.4s;
+  text-decoration: none;
+  list-style: none;
 }
 
 .btnc:hover {
@@ -214,6 +266,10 @@
   border-radius: 50px;
 }
 
+.buttonn a {
+  text-decoration: none;
+}
+
 
 
 /* ----------------------Desafio3 Contador------------------------ */
@@ -221,23 +277,33 @@
   width: 300px;
   height: 300px;
   /* border: 2px solid #000000; */
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .contador h2 {
   justify-content: center;
 }
 
-.contador button {
+.cbtn {
   background-color: #fff;
   transition: all 0.4s;
 }
 
-.contador button:hover {
+.cbtn:hover {
   background-color: #000000;
   color: #fff;
+}
+
+.buttonnCount {
+  width: 100%;
+}
+
+.count {
+  width: 100%;
 }
 
 .masMenos {
@@ -334,7 +400,7 @@
   color: white;
 }
 
-.store .card:hover .per1 {
+.store .card:hover {
   color: white;
 }
 
@@ -373,36 +439,77 @@
   padding: 2rem;
   flex-direction: column;
   align-items: center;
+  background-color: #EDEDED;
+  height: 100vh;
 }
 
 .itemDetailCard {
-  width: 900px;
   display: flex;
   align-items: center;
   padding: 2rem;
   border: 1px solid #000;
   gap: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 5px 5px -6px black;
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+
 }
+
 
 .itemDetailCard img {
   width: 400px;
 }
 
+.descrptionItemDetailCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+  border: 1px solid #E5E5E5;
+
+}
+
+.descrptionItemDetailCard p {
+  font-size: 0.8rem;
+  max-width: 80%;
+}
+
+.txtPrecio {
+  font-size: 2rem !important;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 2rem;
+}
+
+.txtStock {
+  font-size: 1rem !important;
+  color: #9c9c9c;
+  margin: 0;
+}
+
+
+
 
 /* --------------------bootstrap NAVBAR------------------- */
 
 .navbar-nav a {
-  color: #fff;
+  color: rgb(216, 216, 216);
   list-style: none;
   text-decoration: none;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   transition: all 0.4s;
 }
 
 .navbar-nav a:hover {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   color: #fff;
+  background-color: rgb(20, 219, 20);
+  box-shadow: 0 0 10px rgb(20, 219, 20), 0 0 40px rgb(20, 219, 20), 0 0 60px rgb(20, 219, 20);
 }
 
 
@@ -412,6 +519,8 @@
   justify-content: center;
   text-align: center;
   padding: 2rem;
+  height: 100%;
+  background-color: #EDEDED;
 }
 
 .ItemListContainer span {

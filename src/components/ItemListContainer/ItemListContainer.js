@@ -42,15 +42,3 @@ const ItemListContainer = ({ greeting }) => {
 };
 
 export default ItemListContainer;
-
-
-
-
-//ACÁ VA TODA LA LÓGICA => Puedo hacer la petición
-
-/* Este es el contenedor de la tienda, itemList: contenedor de cards, y el Item es la card en sí*/
-
-//item list container es 1er pantalla, donde veo todo
-//itemList solo hace el map!!
-//item solo la vista de la card!!
-//item detalle contenedor, 2da pantalla, va a estar el contador con la descripción

@@ -6,6 +6,8 @@ const ItemList = ({ products }) => {
     // console.log({ products })
     return (
         <div className="item-list-container">
+
+
             {products.map((product) => <Item key={product.id} product={product} />)}
 
         </div>
@@ -15,4 +17,3 @@ const ItemList = ({ products }) => {
 export default ItemList
 
 
-//itemList solo mapea los productos

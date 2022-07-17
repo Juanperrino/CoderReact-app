@@ -19,7 +19,7 @@ const ItemDetail = ({ product }) => {
                 <h4>{product.title}</h4>
                 <p>{product.description}</p>
                 <p className='txtPrecio'> $ {product.price}</p>
-                <p>Stock available {product?.rating?.count} unit</p>
+                <p className='txtStock'>Stock available {product?.rating?.count} unit</p>
                 {(newCount <= 0) ?
                     <ItemCount handleAdd={handleAdd} initial={1} stock={product?.rating?.count} />
                     :
